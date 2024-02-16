@@ -231,3 +231,11 @@ footer{
     justify-content: space-between;
     padding-top: 30px;
 }
+/* for hover effect  */
+.box{
+    transition: 1s;
+}
+.box:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
