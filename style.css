@@ -196,5 +196,38 @@ header{
     padding-bottom: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    
+}
+/* footer styles here  */
+footer{
+    height: 50vh;
+    width: 100%;
+    background-color: #070211;
+    color: #FEEDF0;
+    font-family: "Roboto Slab", serif;
+    font-size: 15px;
+}
+.sub-footer{
+    width: 80%;
+    margin: 0 auto;
+}
+.office-address{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+.icons{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.icon{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.credits{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
 }
