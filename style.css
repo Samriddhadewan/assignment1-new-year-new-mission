@@ -4,7 +4,7 @@
 }
 /* header section styles here  */
 header{
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url("./resources/Banner\ Image.png");
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url("./resources/Banner\ Image.png");
     height: 80vh;
     width: 80%;
     margin: 0 auto;
@@ -16,14 +16,41 @@ header{
 }
 .banner-texts{
     padding-top: 15%;
+    font-family: "Roboto Slab", serif;
 }
 .banner-text-one{
     color: white;
     text-align: center;
     font-size: 30px;
+    font-weight: 400;
 }
 .banner-text-two{
     color: white;
     text-align: center;
     font-size: 70px;
+    font-weight: 800;
+}
+/* holiday offer section styles here  */
+.offer-section{
+    text-align: center;
+    margin-top: 40px;
+    font-family: "Roboto", sans-serif;
+}
+.percent-off{
+    color: #FF0000;
+    font-size: 80px;
+
+}
+.deals-text{
+    font-size: 20px;
+    color: #FF0000;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.category-text{
+    font-size: 40px;
+    font-weight: 700;
+    color: #070211;
+    margin-bottom: 20px;
 }
